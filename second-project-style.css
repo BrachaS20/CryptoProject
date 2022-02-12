@@ -1,0 +1,110 @@
+body {
+    padding: 30px 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 5px;
+    opacity: 95%;
+}
+
+.top {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    color: burlywood;
+}
+
+.navAndSearch {
+    width: 95%;
+    margin-bottom: 45px;
+}
+
+input[type="search"] {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#button-addon2 {
+    border-radius: 0 15px 15px 0;
+}
+
+.mainCard {
+    width: 300px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.collapsed {
+    border-radius: 10px;
+}
+
+.collapsed:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+}
+
+.collapse {
+    padding-top: 15px;
+}
+
+.modal-body {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+h6 {
+    width: 75%;
+    text-align: center;
+}
+
+.about {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 280px;
+    border-radius: 5px;
+}
+
+.about:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    border-radius: 5px 5px 0 0;
+}
+
+#about-title {
+    padding: 10px;
+}
+
+#about-body {
+    text-align: justify;
+}
+
+#chartContainer {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.crypto {
+    background-image: url(Images/bg3.jpg);
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 90%;
+    margin: 0 auto;
+}
