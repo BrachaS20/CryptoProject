@@ -151,8 +151,13 @@ $(function() {
 
     async function getCoinInfo(coinID) {
         try {
-            const info = await getInfoFromServer(`https://api.coingecko.com/api/v3/coins/${coinID}`);
-            saveInfo(info);
+            if(coinID === "") {
+                alert(`ID is not define. Can't get info.`);
+            } else {
+                const info = await getInfoFromServer(`https://api.coingecko.com/api/v3/coins/${coinID}`);
+                console.log(info);
+                saveInfo(info);    
+            }
         } catch (error) {
             alert(error.message);
         }
